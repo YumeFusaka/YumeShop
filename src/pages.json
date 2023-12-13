@@ -1,4 +1,12 @@
 {
+  // 组件自动导入
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      // uni-ui 规则如下配置  // [!code ++]
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue" // [!code ++]
+    }
+  },
   "pages": [
     //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
     {
