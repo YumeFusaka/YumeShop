@@ -87,7 +87,7 @@ const gotoPayment = () => {
       title: '请选择商品',
     })
   }
-  uni.showToast({ title: '等待完成' })
+  uni.navigateTo({ url: '/pagesOrder/create/create' })
 }
 </script>
 
